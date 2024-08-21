@@ -10,6 +10,7 @@
     {
         [Required(ErrorMessage ="User Name id Required")]
         public string UserName { get; set; }
+
         [Required(ErrorMessage ="password is required")]
         public string password { get; set; }
     }
