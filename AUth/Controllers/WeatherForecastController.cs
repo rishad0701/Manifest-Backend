@@ -9,7 +9,7 @@
     using System.Linq;
     using System.Threading.Tasks;
 
-    [Authorize(Roles = UserRoles.User)]
+   // [Authorize(Roles = UserRoles.User)]
     [ApiController]
     [Route("[controller]")]
     public class WeatherForecastController : ControllerBase
